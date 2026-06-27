@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+.next/
+out/
+dist/
+build/
+
+# Env — never commit real secrets
+# .env.example is safe to commit (contains only placeholder values)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Drizzle
+drizzle/meta/
+
+# TypeScript
+next-env.d.ts
+*.tsbuildinfo
+
+# Vercel
+.vercel
